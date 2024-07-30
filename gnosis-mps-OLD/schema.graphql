@@ -1,9 +1,0 @@
-type Transfer @entity(immutable: true) {
-  id: Bytes!
-  blockNumber: BigInt!
-  blockTimestamp: BigInt!
-  transactionHash: Bytes!
-  from: Bytes! # address
-  to: Bytes! # address
-  value: BigInt! # uint256
-}
