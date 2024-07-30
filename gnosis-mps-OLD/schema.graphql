@@ -1,16 +1,9 @@
-type AdminChanged @entity(immutable: true) {
+type Transfer @entity(immutable: true) {
   id: Bytes!
-  previousAdmin: Bytes! # address
-  newAdmin: Bytes! # address
   blockNumber: BigInt!
   blockTimestamp: BigInt!
   transactionHash: Bytes!
-}
-
-type Upgraded @entity(immutable: true) {
-  id: Bytes!
-  implementation: Bytes! # address
-  blockNumber: BigInt!
-  blockTimestamp: BigInt!
-  transactionHash: Bytes!
+  from: Bytes! # address
+  to: Bytes! # address
+  value: BigInt! # uint256
 }

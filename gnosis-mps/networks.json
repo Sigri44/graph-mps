@@ -1,8 +1,0 @@
-{
-  "gnosis": {
-    "AdminUpgradeabilityProxy": {
-      "address": "0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb",
-      "startBlock": 18663626
-    }
-  }
-}

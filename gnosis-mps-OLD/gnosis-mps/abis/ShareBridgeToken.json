@@ -367,114 +367,62 @@
   {
     "inputs": [],
     "name": "APPROVE_WITH_AUTHORIZATION_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "CANCEL_AUTHORIZATION_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "DECREASE_APPROVAL_WITH_AUTHORIZATION_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "DOMAIN_SEPARATOR",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "INCREASE_APPROVAL_WITH_AUTHORIZATION_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "PERMIT_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "VERSION",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "addAdministrator",
     "outputs": [],
@@ -483,11 +431,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "addRealmAdministrator",
     "outputs": [],
@@ -496,11 +440,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_seizer",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_seizer", "type": "address" }
     ],
     "name": "addSeizer",
     "outputs": [],
@@ -509,11 +449,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_supplier",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_supplier", "type": "address" }
     ],
     "name": "addSupplier",
     "outputs": [],
@@ -522,99 +458,35 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_owner",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_spender",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_owner", "type": "address" },
+      { "internalType": "address", "name": "_spender", "type": "address" }
     ],
     "name": "allowance",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_value",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_spender", "type": "address" },
+      { "internalType": "uint256", "name": "_value", "type": "uint256" }
     ],
     "name": "approve",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "value",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validAfter",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validBefore",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "nonce",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "owner", "type": "address" },
+      { "internalType": "address", "name": "spender", "type": "address" },
+      { "internalType": "uint256", "name": "value", "type": "uint256" },
+      { "internalType": "uint256", "name": "validAfter", "type": "uint256" },
+      { "internalType": "uint256", "name": "validBefore", "type": "uint256" },
+      { "internalType": "bytes32", "name": "nonce", "type": "bytes32" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "approveWithAuthorization",
     "outputs": [],
@@ -623,16 +495,8 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "", "type": "address" },
+      { "internalType": "bytes32", "name": "", "type": "bytes32" }
     ],
     "name": "authorizationStates",
     "outputs": [
@@ -647,61 +511,31 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_owner",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_owner", "type": "address" }
     ],
     "name": "balanceOf",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "boardResolutionDocumentHash",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "boardResolutionDocumentUrl",
-    "outputs": [
-      {
-        "internalType": "string",
-        "name": "",
-        "type": "string"
-      }
-    ],
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address[]",
-        "name": "_to",
-        "type": "address[]"
-      },
-      {
-        "internalType": "uint256[]",
-        "name": "_values",
-        "type": "uint256[]"
-      }
+      { "internalType": "address[]", "name": "_to", "type": "address[]" },
+      { "internalType": "uint256[]", "name": "_values", "type": "uint256[]" }
     ],
     "name": "bulkTransfer",
     "outputs": [],
@@ -710,21 +544,9 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_from",
-        "type": "address"
-      },
-      {
-        "internalType": "address[]",
-        "name": "_to",
-        "type": "address[]"
-      },
-      {
-        "internalType": "uint256[]",
-        "name": "_values",
-        "type": "uint256[]"
-      }
+      { "internalType": "address", "name": "_from", "type": "address" },
+      { "internalType": "address[]", "name": "_to", "type": "address[]" },
+      { "internalType": "uint256[]", "name": "_values", "type": "uint256[]" }
     ],
     "name": "bulkTransferFrom",
     "outputs": [],
@@ -733,16 +555,8 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_from",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_from", "type": "address" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "burn",
     "outputs": [],
@@ -751,70 +565,26 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_from",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_from", "type": "address" },
+      { "internalType": "address", "name": "_to", "type": "address" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "canTransfer",
     "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      },
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
+      { "internalType": "bool", "name": "", "type": "bool" },
+      { "internalType": "uint256", "name": "", "type": "uint256" },
+      { "internalType": "uint256", "name": "", "type": "uint256" }
     ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "authorizer",
-        "type": "address"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "nonce",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "authorizer", "type": "address" },
+      { "internalType": "bytes32", "name": "nonce", "type": "bytes32" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "cancelAuthorization",
     "outputs": [],
@@ -823,53 +593,25 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      },
-      {
-        "internalType": "string",
-        "name": "_currency",
-        "type": "string"
-      },
-      {
-        "internalType": "uint8",
-        "name": "maxDecimals",
-        "type": "uint8"
-      }
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" },
+      { "internalType": "string", "name": "_currency", "type": "string" },
+      { "internalType": "uint8", "name": "maxDecimals", "type": "uint8" }
     ],
     "name": "convertTo",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "decimals",
-    "outputs": [
-      {
-        "internalType": "uint8",
-        "name": "",
-        "type": "uint8"
-      }
-    ],
+    "outputs": [{ "internalType": "uint8", "name": "", "type": "uint8" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_spender",
-        "type": "address"
-      },
+      { "internalType": "address", "name": "_spender", "type": "address" },
       {
         "internalType": "uint256",
         "name": "_subtractedValue",
@@ -883,51 +625,15 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "decrement",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validAfter",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validBefore",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "nonce",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "owner", "type": "address" },
+      { "internalType": "address", "name": "spender", "type": "address" },
+      { "internalType": "uint256", "name": "decrement", "type": "uint256" },
+      { "internalType": "uint256", "name": "validAfter", "type": "uint256" },
+      { "internalType": "uint256", "name": "validBefore", "type": "uint256" },
+      { "internalType": "bytes32", "name": "nonce", "type": "bytes32" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "decreaseApprovalWithAuthorization",
     "outputs": [],
@@ -936,16 +642,8 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_addedValue",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_spender", "type": "address" },
+      { "internalType": "uint256", "name": "_addedValue", "type": "uint256" }
     ],
     "name": "increaseApproval",
     "outputs": [],
@@ -954,51 +652,15 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "increment",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validAfter",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validBefore",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "nonce",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "owner", "type": "address" },
+      { "internalType": "address", "name": "spender", "type": "address" },
+      { "internalType": "uint256", "name": "increment", "type": "uint256" },
+      { "internalType": "uint256", "name": "validAfter", "type": "uint256" },
+      { "internalType": "uint256", "name": "validBefore", "type": "uint256" },
+      { "internalType": "bytes32", "name": "nonce", "type": "bytes32" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "increaseApprovalWithAuthorization",
     "outputs": [],
@@ -1007,26 +669,14 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
+      { "internalType": "address", "name": "owner", "type": "address" },
       {
         "internalType": "contract IProcessor",
         "name": "processor",
         "type": "address"
       },
-      {
-        "internalType": "string",
-        "name": "name",
-        "type": "string"
-      },
-      {
-        "internalType": "string",
-        "name": "symbol",
-        "type": "string"
-      },
+      { "internalType": "string", "name": "name", "type": "string" },
+      { "internalType": "string", "name": "symbol", "type": "string" },
       {
         "internalType": "address[]",
         "name": "trustedIntermediaries",
@@ -1045,11 +695,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
+      { "internalType": "address", "name": "owner", "type": "address" },
       {
         "internalType": "contract IProcessor",
         "name": "processor",
@@ -1063,31 +709,15 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
+      { "internalType": "address", "name": "owner", "type": "address" },
       {
         "internalType": "contract IProcessor",
         "name": "processor",
         "type": "address"
       },
-      {
-        "internalType": "string",
-        "name": "name",
-        "type": "string"
-      },
-      {
-        "internalType": "string",
-        "name": "symbol",
-        "type": "string"
-      },
-      {
-        "internalType": "uint8",
-        "name": "decimals",
-        "type": "uint8"
-      },
+      { "internalType": "string", "name": "name", "type": "string" },
+      { "internalType": "string", "name": "symbol", "type": "string" },
+      { "internalType": "uint8", "name": "decimals", "type": "uint8" },
       {
         "internalType": "address[]",
         "name": "trustedIntermediaries",
@@ -1101,92 +731,44 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "isAdministrator",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "isRealmAdministrator",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_seizer",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_seizer", "type": "address" }
     ],
     "name": "isSeizer",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_supplier",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_supplier", "type": "address" }
     ],
     "name": "isSupplier",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_to", "type": "address" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "mint",
     "outputs": [],
@@ -1196,85 +778,33 @@
   {
     "inputs": [],
     "name": "name",
-    "outputs": [
-      {
-        "internalType": "string",
-        "name": "",
-        "type": "string"
-      }
-    ],
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "name": "nonces",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "owner",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "owner",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "spender",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "value",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "deadline",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "owner", "type": "address" },
+      { "internalType": "address", "name": "spender", "type": "address" },
+      { "internalType": "uint256", "name": "value", "type": "uint256" },
+      { "internalType": "uint256", "name": "deadline", "type": "uint256" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "permit",
     "outputs": [],
@@ -1285,11 +815,7 @@
     "inputs": [],
     "name": "priceOracle",
     "outputs": [
-      {
-        "internalType": "contract IPriceOracle",
-        "name": "",
-        "type": "address"
-      }
+      { "internalType": "contract IPriceOracle", "name": "", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -1298,11 +824,7 @@
     "inputs": [],
     "name": "processor",
     "outputs": [
-      {
-        "internalType": "contract IProcessor",
-        "name": "",
-        "type": "address"
-      }
+      { "internalType": "contract IProcessor", "name": "", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -1310,23 +832,13 @@
   {
     "inputs": [],
     "name": "realm",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "removeAdministrator",
     "outputs": [],
@@ -1335,11 +847,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_administrator",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_administrator", "type": "address" }
     ],
     "name": "removeRealmAdministrator",
     "outputs": [],
@@ -1348,11 +856,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_seizer",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_seizer", "type": "address" }
     ],
     "name": "removeSeizer",
     "outputs": [],
@@ -1361,11 +865,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_supplier",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_supplier", "type": "address" }
     ],
     "name": "removeSupplier",
     "outputs": [],
@@ -1381,24 +881,12 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "ruleId",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "ruleId", "type": "uint256" }
     ],
     "name": "rule",
     "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "", "type": "uint256" },
+      { "internalType": "uint256", "name": "", "type": "uint256" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -1407,32 +895,16 @@
     "inputs": [],
     "name": "rules",
     "outputs": [
-      {
-        "internalType": "uint256[]",
-        "name": "",
-        "type": "uint256[]"
-      },
-      {
-        "internalType": "uint256[]",
-        "name": "",
-        "type": "uint256[]"
-      }
+      { "internalType": "uint256[]", "name": "", "type": "uint256[]" },
+      { "internalType": "uint256[]", "name": "", "type": "uint256[]" }
     ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_account",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_value",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_account", "type": "address" },
+      { "internalType": "uint256", "name": "_value", "type": "uint256" }
     ],
     "name": "seize",
     "outputs": [],
@@ -1485,11 +957,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "newRealm",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "newRealm", "type": "address" }
     ],
     "name": "setRealm",
     "outputs": [],
@@ -1498,11 +966,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256[]",
-        "name": "newRules",
-        "type": "uint256[]"
-      },
+      { "internalType": "uint256[]", "name": "newRules", "type": "uint256[]" },
       {
         "internalType": "uint256[]",
         "name": "newRulesParams",
@@ -1516,11 +980,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "string",
-        "name": "_terms",
-        "type": "string"
-      }
+      { "internalType": "string", "name": "_terms", "type": "string" }
     ],
     "name": "setTerms",
     "outputs": [],
@@ -1556,157 +1016,73 @@
   {
     "inputs": [],
     "name": "symbol",
-    "outputs": [
-      {
-        "internalType": "string",
-        "name": "",
-        "type": "string"
-      }
-    ],
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "terms",
-    "outputs": [
-      {
-        "internalType": "string",
-        "name": "",
-        "type": "string"
-      }
-    ],
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "tokenizedSharePercentage",
-    "outputs": [
-      {
-        "internalType": "uint16",
-        "name": "",
-        "type": "uint16"
-      }
-    ],
+    "outputs": [{ "internalType": "uint16", "name": "", "type": "uint16" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "tokenizedShares",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "totalSupply",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_value",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_to", "type": "address" },
+      { "internalType": "uint256", "name": "_value", "type": "uint256" }
     ],
     "name": "transfer",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_value",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes",
-        "name": "data",
-        "type": "bytes"
-      }
+      { "internalType": "address", "name": "_to", "type": "address" },
+      { "internalType": "uint256", "name": "_value", "type": "uint256" },
+      { "internalType": "bytes", "name": "data", "type": "bytes" }
     ],
     "name": "transferAndCall",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_from",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_value",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_from", "type": "address" },
+      { "internalType": "address", "name": "_to", "type": "address" },
+      { "internalType": "uint256", "name": "_value", "type": "uint256" }
     ],
     "name": "transferFrom",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      }
-    ],
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "newOwner",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "newOwner", "type": "address" }
     ],
     "name": "transferOwnership",
     "outputs": [],
@@ -1715,51 +1091,15 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "from",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "to",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "value",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validAfter",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "validBefore",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "nonce",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "uint8",
-        "name": "v",
-        "type": "uint8"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "r",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "bytes32",
-        "name": "s",
-        "type": "bytes32"
-      }
+      { "internalType": "address", "name": "from", "type": "address" },
+      { "internalType": "address", "name": "to", "type": "address" },
+      { "internalType": "uint256", "name": "value", "type": "uint256" },
+      { "internalType": "uint256", "name": "validAfter", "type": "uint256" },
+      { "internalType": "uint256", "name": "validBefore", "type": "uint256" },
+      { "internalType": "bytes32", "name": "nonce", "type": "bytes32" },
+      { "internalType": "uint8", "name": "v", "type": "uint8" },
+      { "internalType": "bytes32", "name": "r", "type": "bytes32" },
+      { "internalType": "bytes32", "name": "s", "type": "bytes32" }
     ],
     "name": "transferWithAuthorization",
     "outputs": [],
@@ -1770,11 +1110,7 @@
     "inputs": [],
     "name": "trustedIntermediaries",
     "outputs": [
-      {
-        "internalType": "address[]",
-        "name": "",
-        "type": "address[]"
-      }
+      { "internalType": "address[]", "name": "", "type": "address[]" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -1789,13 +1125,7 @@
   {
     "inputs": [],
     "name": "votingSession",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   }
