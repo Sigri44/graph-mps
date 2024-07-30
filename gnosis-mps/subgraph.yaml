@@ -1,0 +1,29 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: AdminUpgradeabilityProxy
+    network: gnosis
+    source:
+      address: "0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb"
+      abi: AdminUpgradeabilityProxy
+      startBlock: 18663626
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - AdminChanged
+        - Upgraded
+      abis:
+        - name: AdminUpgradeabilityProxy
+          file: ./abis/AdminUpgradeabilityProxy.json
+      eventHandlers:
+        - event: AdminChanged(address,address)
+          handler: handleAdminChanged
+        - event: Upgraded(indexed address)
+          handler: handleUpgraded
+      file: ./src/admin-upgradeability-proxy.ts
